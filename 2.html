@@ -3,58 +3,55 @@
 <head>
   <title>making web</title>
   <meta charset="utf-8">
-  <style>
-    a{
-      color:green;
-      text-decoration: none;
-    }
-  </style>
+  <link rel="stylesheet" href="design.css">
 </head>
 
 <body>
-  <h1><a href="index.html">make-WEB</a></h1>
-  <ol>
-    <li><a href="1.html">Basic-Code</a></li>
-    <li><a href="2.html" style="color:orange">Server</a></li>
-    <li><a href="3.html">Web-Design</a></li>
-  </ol>
-  <h2>웹 호스팅 하기</h2>
-    <p style ="margin-top:40px;">- 먼저 <a href="https://github.com/" target="_blank" title="서버 호스팅 사이트">이 사이트</a>에서 호스팅 합니다.
-    </p><br><br>
-      <img src="server_hosting step1.jpg" width="60%">
-    <p>1. <strong>New repository</strong>를 클릭한다.</p><br>
-      <img src="server_hosting step2.jpg" width="60%">
-    <p>2. <strong>Respsitory name</strong>에 이름을 적는다.</p><br>
-      <img src="server_hosting step3.jpg" width="60%">
-    <p>3. <strong>initialize this respsitory with README</strong>에 체크한다.</p><br>
-      <img src="server_hosting step4.jpg" width="60%">
-    <p>4. <strong>Upload files</strong>를 눌러 코딩한걸 올린다.</p><br>
-      <img src="server_hosting step5.jpg" width="60%">
-    <p>5. 올리는것에대해 설명같은걸 적은 후, <strong>Commit changes</strong>를 클릭 </p><br>
-      <img src="server_hosting step6.jpg" width="60%">
-    <p>6. 그 다음은 이제 무료서버를 할당 받아야함. <strong>Settings</strong> 클릭</p><br>
-      <img src="server_hosting step7.jpg" width="60%">
-    <p>7. 밑으로 내리다보면 <strong>GitHub Pages</strong>에서 <strong>None</strong>으로 되어있는걸 <strong>master</strong>로 바꿈</p><br>
-      <img src="server_hosting step8.jpg" width="60%">
-    <p>8. 해당 링크가 나의 웹사이트 주소이다.(만약 안 될 경우 뒤에 주소뒤에 직접 <strong>index.html</strong>(내 사이트 메인 주소)이라고 붙이면 됨)</p><br><br><br>
-  <h2>웹 서버 운영하기</h2>
-    <p>아래의 설명에서는 <strong>Apache</strong>를 사용하고 있다.</p><br>
-      <img src="server_make_step1.jpg" width="60%">
-    <p>1. 위 그림과 같은 htdocs라는 폴더에 내가 만든 웹을 넣으면 된다.<br><br>이 과정에서 기능은 그냥 폴더에 있는 웹을 연거랑 다름 없을지 몰라도, 질적으로는 큰 차이가 있다.<br>
-    위 서버는 엄연히 웹서버와 웹브라우저의 상호작용(한 컨퓨터 내에서이긴 하지만..)이고, 폴더에서 하는건 단순 웹브라우저의 작동이다.<br>
-    2. 주소창에 <strong>localhost</strong>라고 되어 있는 걸 <strong>http://127.0.0.1/index.html</strong> 로 바꿔준다.</p>
-    <h3>물론 두대의 컴퓨터도 상호작용 할 수 있다.</h3>
-    <p>이 경우에는 서버를 여는 컴퓨터의 아이피 주소를 알아야한다.</p><br>
-      <img src="server_make_step2.jpg" width="60%">
-    <p>1. 우측하단에 있는 인터넷모양을 우클릭 한 후 <strong>"네트워크 및 인터넷 설정 열기"</strong> 클릭</p><br>
-      <img src="server_make_step3.jpg" width="60%">
-    <p>2.<strong> 연결 속성 변경</strong> 클릭</p><br>
-      <img src="server_make_step4.jpg" width="60%">
-    <p>3. 해당 주소가 나의 IP주소이다.<br>
-     *추가로 설명하자면 자기 컴퓨터의 주소는 127.0.0.1로 하기로 약속했다.</p><br>
-     <p>같은 공유기나 와이파이에 접속한 컴퓨터로 내 컴퓨터의 주소를 입력하면 내 웹브라우저에 접속 할 수 있다.</p>
-
-
+    <h1 class="jae"><a href="index.html" style="color:orange">make-WEB</a></h1>
+  <div id="grid">
+    <ul>
+      <li><a href="1.html">Basic-Code</a></li>
+      <li><a href="2.html" style="color:purple">Server</a></li>
+      <li><a href="3.html">Web-Design</a></li>
+    </ul>
+    <div>
+      <h2>웹 호스팅 하기</h2>
+        <p style ="margin-top:40px;">- 먼저 <a href="https://github.com/" target="_blank" title="서버 호스팅 사이트">이 사이트</a>에서 호스팅 합니다.
+        </p><br><br>
+          <img src="server_hosting step1.jpg" width="60%">
+        <p>1. <strong>New repository</strong>를 클릭한다.</p><br>
+          <img src="server_hosting step2.jpg" width="60%">
+        <p>2. <strong>Respsitory name</strong>에 이름을 적는다.</p><br>
+          <img src="server_hosting step3.jpg" width="60%">
+        <p>3. <strong>initialize this respsitory with README</strong>에 체크한다.</p><br>
+          <img src="server_hosting step4.jpg" width="60%">
+        <p>4. <strong>Upload files</strong>를 눌러 코딩한걸 올린다.</p><br>
+          <img src="server_hosting step5.jpg" width="60%">
+        <p>5. 올리는것에대해 설명같은걸 적은 후, <strong>Commit changes</strong>를 클릭 </p><br>
+          <img src="server_hosting step6.jpg" width="60%">
+        <p>6. 그 다음은 이제 무료서버를 할당 받아야함. <strong>Settings</strong> 클릭</p><br>
+          <img src="server_hosting step7.jpg" width="60%">
+        <p>7. 밑으로 내리다보면 <strong>GitHub Pages</strong>에서 <strong>None</strong>으로 되어있는걸 <strong>master</strong>로 바꿈</p><br>
+          <img src="server_hosting step8.jpg" width="60%">
+        <p>8. 해당 링크가 나의 웹사이트 주소이다.(만약 안 될 경우 뒤에 주소뒤에 직접 <strong>index.html</strong>(내 사이트 메인 주소)이라고 붙이면 됨)</p><br><br><br>
+      <h2>웹 서버 운영하기</h2>
+        <p>아래의 설명에서는 <strong>Apache</strong>를 사용하고 있다.</p><br>
+          <img src="server_make_step1.jpg" width="60%">
+        <p>1. 위 그림과 같은 htdocs라는 폴더에 내가 만든 웹을 넣으면 된다.<br><br>이 과정에서 기능은 그냥 폴더에 있는 웹을 연거랑 다름 없을지 몰라도, 질적으로는 큰 차이가 있다.<br>
+        위 서버는 엄연히 웹서버와 웹브라우저의 상호작용(한 컨퓨터 내에서이긴 하지만..)이고, 폴더에서 하는건 단순 웹브라우저의 작동이다.<br>
+        2. 주소창에 <strong>localhost</strong>라고 되어 있는 걸 <strong>http://127.0.0.1/index.html</strong> 로 바꿔준다.</p>
+        <h3>물론 두대의 컴퓨터도 상호작용 할 수 있다.</h3>
+        <p>이 경우에는 서버를 여는 컴퓨터의 아이피 주소를 알아야한다.</p><br>
+          <img src="server_make_step2.jpg" width="60%">
+        <p>1. 우측하단에 있는 인터넷모양을 우클릭 한 후 <strong>"네트워크 및 인터넷 설정 열기"</strong> 클릭</p><br>
+          <img src="server_make_step3.jpg" width="60%">
+        <p>2.<strong> 연결 속성 변경</strong> 클릭</p><br>
+          <img src="server_make_step4.jpg" width="60%">
+        <p>3. 해당 주소가 나의 IP주소이다.<br>
+         *추가로 설명하자면 자기 컴퓨터의 주소는 127.0.0.1로 하기로 약속했다.</p><br>
+         <p>같은 공유기나 와이파이에 접속한 컴퓨터로 내 컴퓨터의 주소를 입력하면 내 웹브라우저에 접속 할 수 있다.</p>
+     </div>
+  </div>
 
 </body>
 </html>

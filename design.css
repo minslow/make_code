@@ -1,0 +1,48 @@
+  #grid{
+    display:grid;
+    grid-template-columns: 200px 1fr
+  }
+  a{
+    color:green;
+    text-decoration: none;
+
+  }
+  .jae{
+    font-size:60px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin:0;
+    padding: 20px;
+  }
+  #grid ul{
+    border-right: 1px solid gray;
+    margin:0;
+    padding:25px;
+  }
+  body{
+    margin:0;
+    text-align: center;
+    border-right: 1px solid gray;
+    width:900px;
+  }
+  h1{
+    border-top: 1px solid gray;
+    padding: 20px;
+  }
+
+  @media(max-width:850px){
+    #grid{
+      display:block;
+    }
+    #grid ul{
+      border-right: none;
+    }
+    body{
+      text-align: left;
+      border-right: none;
+    }
+    .jae{
+      text-align: left;
+      border: none;
+    }
+  }

@@ -3,122 +3,119 @@
 <head>
   <title>making web</title>
   <meta charset="utf-8">
-  <style>
-    a{
-      color:green;
-      text-decoration: none;
-    }
-  </style>
+  <link rel="stylesheet" href="design.css">
 </head>
 
 <body>
-  <h1><a href="index.html">make-WEB</a></h1>
-  <ol>
-    <li><a href="1.html" style="color:orange">Basic-Code</a></li>
-    <li><a href="2.html">Server</a></li>
-    <li><a href="3.html">Web-Design</a></li>
-  </ol>
+  <h1 class = "jae"><a href="index.html" style="color:orange">make-WEB</a></h1>
+  <div id="grid">
+    <ul>
+      <li><a href="1.html" style="color:purple">Basic-Code</a></li>
+      <li><a href="2.html">Server</a></li>
+      <li><a href="3.html">Web-Design</a></li>
+    </ul>
+    <div>
+      <h4><u>웹사이트</u> 만들기를 <strong>마스터</strong> 해보자!</h4>
 
-  <h4><u>웹사이트</u> 만들기를 <strong>마스터</strong> 해보자!</h4>
+      <img src="coding.jpg" width="450">
 
-  <img src="coding.jpg" width="450">
+      <h1>-기초 코딩!</h1>
+      <h2>강조하기</h2>
+      <p><strong>진하게</strong> 하고싶을 때는
+         <strong>&lt;strong&gt; ~ &lt;/strong&gt;</strong> 해주면 된다.</p>
+      <u>밑줄을</u> 긋고 싶을 때는 <strong>&lt;u&gt; ~ &lt;/u&gt;</strong> 해주면 된다.
+      이러한 명령어들을 TAG라고 한다.
 
-  <h1>-기초 코딩!</h1>
-  <h2>강조하기</h2>
-  <p><strong>진하게</strong> 하고싶을 때는
-     <strong>&lt;strong&gt; ~ &lt;/strong&gt;</strong> 해주면 된다.</p>
-  <u>밑줄을</u> 긋고 싶을 때는 <strong>&lt;u&gt; ~ &lt;/u&gt;</strong> 해주면 된다.
-  이러한 명령어들을 TAG라고 한다.
+      <h2>&lt; &gt; 출력하기</h2>
+       <strong>&amplt = &lt, &ampgt = &gt</strong>
 
-  <h2>&lt; &gt; 출력하기</h2>
-   <strong>&amplt = &lt, &ampgt = &gt</strong>
+      <h2>주석 달기</h2>
+        <strong>&lt!-- ~ --&gt</strong>
 
-  <h2>주석 달기</h2>
-    <strong>&lt!-- ~ --&gt</strong>
+      <h2>띄어쓰기 출력</h2>
+        <strong>&ampnbsp;</strong>
 
-  <h2>띄어쓰기 출력</h2>
-    <strong>&ampnbsp;</strong>
+      <h2>제목</h2>
+      <p><strong>&lth1&gt ~ &lt/h1&gt</strong> 형식으로 사용한다.</p>
+      h1태그는 글자 확대. h1~ h6 숫자가 커질수록 더 작아짐
+      <h4>특징</h4> : 줄바꿈이 실행됨, 제목에 쓰이는 듯 함
 
-  <h2>제목</h2>
-  <p><strong>&lth1&gt ~ &lt/h1&gt</strong> 형식으로 사용한다.</p>
-  h1태그는 글자 확대. h1~ h6 숫자가 커질수록 더 작아짐
-  <h4>특징</h4> : 줄바꿈이 실행됨, 제목에 쓰이는 듯 함
+      <h2>줄바꿈 태그</h2>
+      <strong>&ltp&gt ~ &lt/p&gt</strong> 를 사용한다.<br>
+      <p>p태그를 사용할때 위아래의 여백을 주는 방법!!</p>
+      <p style ="margin-top:20px;"> - <strong>&ltp style ="margin-top:40px;"&gt</strong>의
+      형식으로 쓰게되면 40자리에다가 원하는 숫자를 넣어서 위 문장과의
+      여백거리를 정할 수 있다.</p>
+      <p style="margin-top:40px;">또는 <strong>&ltbr&gt</strong> 를 사용한다.</p>
 
-  <h2>줄바꿈 태그</h2>
-  <strong>&ltp&gt ~ &lt/p&gt</strong> 를 사용한다.<br>
-  <p>p태그를 사용할때 위아래의 여백을 주는 방법!!</p>
-  <p style ="margin-top:20px;"> - <strong>&ltp style ="margin-top:40px;"&gt</strong>의
-  형식으로 쓰게되면 40자리에다가 원하는 숫자를 넣어서 위 문장과의
-  여백거리를 정할 수 있다.</p>
-  <p style="margin-top:40px;">또는 <strong>&ltbr&gt</strong> 를 사용한다.</p>
+      <h2>이미지 삽입하기</h2>
+      <p><strong>&ltimg src="coding.jpg" width="450"&gt</strong>을 사용하면,
+      이미지를 삽입 할 수 있다</p>
+      <p>1. 사진을 다운 받아 내가 지정한 폴더에 넣는다.<br>
+      2. 이름을 알기 쉽게 바꾼다.
+      3. 예시와 같이 이미지를 실행 시킨다.</p>
+      <p>-팁- <strong>width="450"</strong> 자리에 <strong>450</strong>대신 <strong>100%</strong>를 넣으면 화면에 꽉차게 넣어짐<br>
+      그 다음 활용은 알아서..</p>
+      <strong>*width</strong> 랑 <strong>scr(source)</strong>는 위치 바꿔도됨
 
-  <h2>이미지 삽입하기</h2>
-  <p><strong>&ltimg src="coding.jpg" width="450"&gt</strong>을 사용하면,
-  이미지를 삽입 할 수 있다</p>
-  <p>1. 사진을 다운 받아 내가 지정한 폴더에 넣는다.<br>
-  2. 이름을 알기 쉽게 바꾼다.
-  3. 예시와 같이 이미지를 실행 시킨다.</p>
-  <p>-팁- <strong>width="450"</strong> 자리에 <strong>450</strong>대신 <strong>100%</strong>를 넣으면 화면에 꽉차게 넣어짐<br>
-  그 다음 활용은 알아서..</p>
-  <strong>*width</strong> 랑 <strong>scr(source)</strong>는 위치 바꿔도됨
+      <h2>목차 만들기</h2>
+      <p><strong>&ltli&gt ~ &lt/li&gt</strong>라는 태그를 사용한다.<br>
+      이 <strong>&ltli&gt</strong>의 부모 태그로 <strong>&ltul&gt ~ &lt/ul&gt</strong>이라는 태그를 사용할 수 있다.<br>
+      목차를 넘버링을 할 때 <strong>&ltul&gt</strong> 대신 <strong>&ltol&gt</strong>을 사용하면 자동으로 넘버링 해준다.</p>
 
-  <h2>목차 만들기</h2>
-  <p><strong>&ltli&gt ~ &lt/li&gt</strong>라는 태그를 사용한다.<br>
-  이 <strong>&ltli&gt</strong>의 부모 태그로 <strong>&ltul&gt ~ &lt/ul&gt</strong>이라는 태그를 사용할 수 있다.<br>
-  목차를 넘버링을 할 때 <strong>&ltul&gt</strong> 대신 <strong>&ltol&gt</strong>을 사용하면 자동으로 넘버링 해준다.</p>
+      <h2>표 만들기</h2>
+      <img src="diagram.jpg" width="450">
+      <p>이거 보고 알아서 이해해 주세요. (별로 안중요한듯함ㅎㅎ)</p>
 
-  <h2>표 만들기</h2>
-  <img src="diagram.jpg" width="450">
-  <p>이거 보고 알아서 이해해 주세요. (별로 안중요한듯함ㅎㅎ)</p>
+      <h2>내 웹사이트의 이름 붙이기</h2>
+      <p><strong>&lttitle&gt ~ &lt/title&gt</strong>태그를 이용하여 웹페이지의 이름을 붙일 수 있다.</p>
 
-  <h2>내 웹사이트의 이름 붙이기</h2>
-  <p><strong>&lttitle&gt ~ &lt/title&gt</strong>태그를 이용하여 웹페이지의 이름을 붙일 수 있다.</p>
+      <h2>만약 글씨가 깨진다면?!</h2>
+      <p>사이트의 경로를 잘 설정해주지 못했기 때문이다.<br>
+      이 사이트의 경우 <strong>utf-8</strong>로 경로를 설정해줘야 한다.(에디터 밑에 보면 써있음)<br>
+      <strong>&ltmeta charset="utf-8"&gt</strong>을 이용하여 경로를 설정해준다.</p>
 
-  <h2>만약 글씨가 깨진다면?!</h2>
-  <p>사이트의 경로를 잘 설정해주지 못했기 때문이다.<br>
-  이 사이트의 경우 <strong>utf-8</strong>로 경로를 설정해줘야 한다.(에디터 밑에 보면 써있음)<br>
-  <strong>&ltmeta charset="utf-8"&gt</strong>을 이용하여 경로를 설정해준다.</p>
+      <h2>*형식에 대한 약속(너무 중요!)</h2>
+      <p>본문은 <strong>&ltbody&gt ~ &lt/body&gt</strong>태그로 묶기로 약속함<br>
+      반면에 본문을 설명하는 부분은 <strong>&lthead&gt ~ &lt/head&gt</strong>태그로 묶기로 약속함
+      이 모든 태그들은 <strong>&lthtml&gt ~ &lt/html&gt</strong>태그로 묶임<br>
+      맨 위에는 &lt!doctype html&gt라고 써줌</p>
 
-  <h2>*형식에 대한 약속(너무 중요!)</h2>
-  <p>본문은 <strong>&ltbody&gt ~ &lt/body&gt</strong>태그로 묶기로 약속함<br>
-  반면에 본문을 설명하는 부분은 <strong>&lthead&gt ~ &lt/head&gt</strong>태그로 묶기로 약속함
-  이 모든 태그들은 <strong>&lthtml&gt ~ &lt/html&gt</strong>태그로 묶임<br>
-  맨 위에는 &lt!doctype html&gt라고 써줌</p>
+      <h2>링크 만드는법</h2>
+      <p><strong>&lta href="링크 넣어"&gt ~ &lt/a&gt</strong>태그를 이용한다.<br>
+      -링크를 눌렀을 때 이동하지말고 새 탭을 열어볼까?<br>
+      <strong>&lta href="링크 넣어" target="_blank"&gt ~ &lt/a&gt</strong><br>
+      -링크에 손을 올려놨을 때 미리 어디로갈지 보이면 얼마나 좋을까?<br>
+      <strong>&lta href="링크 넣어" target="_blank" title="웹페이지 만들기 강의실"&gt ~ &lt/a&gt</strong><br>
+      -실습 : <a href="https://opentutorials.org/module/3135" target="_blank" title="웹페이지 만들기 강의실">강의실로 이동~</a><br>
+      </p><br>
 
-  <h2>링크 만드는법</h2>
-  <p><strong>&lta href="링크 넣어"&gt ~ &lt/a&gt</strong>태그를 이용한다.<br>
-  -링크를 눌렀을 때 이동하지말고 새 탭을 열어볼까?<br>
-  <strong>&lta href="링크 넣어" target="_blank"&gt ~ &lt/a&gt</strong><br>
-  -링크에 손을 올려놨을 때 미리 어디로갈지 보이면 얼마나 좋을까?<br>
-  <strong>&lta href="링크 넣어" target="_blank" title="웹페이지 만들기 강의실"&gt ~ &lt/a&gt</strong><br>
-  -실습 : <a href="https://opentutorials.org/module/3135" target="_blank" title="웹페이지 만들기 강의실">강의실로 이동~</a><br>
-</p><br>
+      <h1>-기타 등등!</h1>
+      <h2>동영상 삽입</h2>
+      <p>유튜브를 예로 든다~<br>
+      1. 영상 들어가서 -> 공유 -> 퍼가기 한 후에 코드 복사 후 가져와서 붙여 넣기하면 끝!!<br>
+      * 너무 간단하지만 좀 더 설명할 것 들과 조심해야 할 것이 남아있음.
+      -유튜브같은 경우 저작권이 붙은 영상은 가져와도 재생이 안되는 것 같음.
+      유튜브에서 저작권 없는 음악 검색해서 나온 영상은 성공함.</p>
 
-    <h1>-기타 등등!</h1>
-    <h2>동영상 삽입</h2>
-    <p>유튜브를 예로 든다~<br>
-    1. 영상 들어가서 -> 공유 -> 퍼가기 한 후에 코드 복사 후 가져와서 붙여 넣기하면 끝!!<br>
-    * 너무 간단하지만 좀 더 설명할 것 들과 조심해야 할 것이 남아있음.
-    -유튜브같은 경우 저작권이 붙은 영상은 가져와도 재생이 안되는 것 같음.
-    유튜브에서 저작권 없는 음악 검색해서 나온 영상은 성공함.</p>
-
-    <h4>영상에 대한 정보 최대한 모아봄</h4>
-    일단 예시: &ltiframe width="560" height="315" src="https://www.youtube.com/embed/ynRAqelEEY0"
-    css border:0 allow="accelerometer; autoplay; clipboard-write;
-    encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt&lt/iframe&gt
-    <p>- <strong>frameborder="0"</strong>이란 코드는 영상의 테두리를 스타일리쉬?하게 해주는 역할을 함<br>
-      하지만 여기서는 제대로 작동이 하지않아 <strong>css border:0</strong>로 바꿔줘야 함(그러면 제대로 작동함)<br>
-    -<strong>autoplay</strong>는 아직 정확한 사용법 모르겠음<br>
-    -<strong>picture-in-picture</strong>는 유튜브 레드 기능인거 같음. 굳이 가져올 필요가 있을라나?</p>
-    <h2>댓글창 기능</h2>
-    <p>지금 단계에서는 직접 만들기는 힘들고, 미리 만들어져 있는걸 가져와 보자. 링크 : <a href="https://blog.disqus.com/" target="_blank">Disqus</a><br>
-    그리고 <strong>installing Disqus</strong> -> <strong>I don't see my platform listed, install manually with Universal Code</strong> 들어간후 코드 복사해오면 끝.</p><br><br>
-    <h2>실시간 채팅 기능</h2>
-    <p>이것도 댓글과 비슷하게 어디서 가져올거임. 링크 : <a href="https://blog.disqus.com/" target="_blank">Tawk</a><br>
-    설정에서 widget code복사해옴. 끝</p><br>
-    <h2>방문자 분석기</h2>
-    <p><a href="https://opentutorials.org/module/3135/18899" target="_blank">영상 보고 해</a></p>
-
+      <h4>영상에 대한 정보 최대한 모아봄</h4>
+      일단 예시: <strong>&ltiframe width="560" height="315" src="https://www.youtube.com/embed/ynRAqelEEY0"
+      css border:0 allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt&lt/iframe&gt</strong>
+      <p>- <strong>frameborder="0"</strong>이란 코드는 영상의 테두리를 스타일리쉬?하게 해주는 역할을 함<br>
+        하지만 여기서는 제대로 작동이 하지않아 <strong>css border:0</strong>로 바꿔줘야 함(그러면 제대로 작동함)<br>
+      -<strong>autoplay</strong>는 아직 정확한 사용법 모르겠음<br>
+      -<strong>picture-in-picture</strong>는 유튜브 레드 기능인거 같음. 굳이 가져올 필요가 있을라나?</p>
+      <h2>댓글창 기능</h2>
+      <p>지금 단계에서는 직접 만들기는 힘들고, 미리 만들어져 있는걸 가져와 보자. 링크 : <a href="https://blog.disqus.com/" target="_blank">Disqus</a><br>
+      그리고 <strong>installing Disqus</strong> -> <strong>I don't see my platform listed, install manually with Universal Code</strong> 들어간후 코드 복사해오면 끝.</p><br><br>
+      <h2>실시간 채팅 기능</h2>
+      <p>이것도 댓글과 비슷하게 어디서 가져올거임. 링크 : <a href="https://blog.disqus.com/" target="_blank">Tawk</a><br>
+      설정에서 widget code복사해옴. 끝</p><br>
+      <h2>방문자 분석기</h2>
+      <p><a href="https://opentutorials.org/module/3135/18899" target="_blank">영상 보고 해</a></p>
+    </div>
+  </div>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
